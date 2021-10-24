@@ -1,0 +1,145 @@
+*,*::after,::before{
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    background: url(./images/mountains-190055__340\ \(1\).webp);
+    padding-top:10px;
+    padding-bottom: 10%;
+    background-size: cover;
+}
+.brand-name{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 100px;
+    padding-left: 30px;
+}
+.para1{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 30px;
+    line-height: 1;
+    
+}
+.middle-text{
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin-top:10% ;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #db9513;
+}
+nav{
+    width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  background-color: rgb(51, 51, 56);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 97%; 
+}
+.nav-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+}
+.nav-ul li a {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem o;
+    margin-left: 3rem;
+    color: #fff;
+    
+  
+    
+}
+.nav-ul li a:hover{
+    background-color:#db9513;
+} 
+.image-display,h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.images{
+    padding: 2px 70px;
+}
+.img1{
+    padding:8px 8px;
+}
+#second-pharse,h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    padding: 2px 3px;
+
+}
+#second-pharse{
+    background: url(./images/sunset-1373171__340.webp);
+    padding-top:10px;
+    padding-bottom: 10%;
+    background-size: cover;
+}
+#second-pharse .click{
+    border: 1px solid #fff;
+    color: #fff;
+    font-family:  Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+#second-pharse .click:hover{
+    border: 1px solid #db9513;
+    color: #db9513;
+    background-color: #fff;
+}
+#third-pharse{
+    background:url(./images/tree-736882__340.webp) ;
+    background-size: cover;
+    padding-top:15px;
+    padding-bottom: 15%;
+    padding: 2px 3px;
+}
+.img2{
+    padding:8px 8px;
+   
+}
+#contact{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+.contact-p{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.address{
+    margin: 15px 15px;
+   
+}
+.img-text2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.para-text{
+    color:#fff;
+}
